@@ -59,9 +59,11 @@
 # Database setting  
 myproject/  
 │── database/             
+|   ├── models.py        # Table Definition - SQLAlchemy  
 │   ├── models.py        # Table Definition - SQLAlchemy  
 │   ├── database.py      # Database Connection / Initialisation  
 │   ├── crud.py          # Data CRUD manupulate  
-│── main.py              # Entry Point  
+│── app.py               # Entry Point  
 │── config.py            # DB path  
+│── data.db              # Automatically made after start app.py  
 
