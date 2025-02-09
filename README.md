@@ -52,4 +52,16 @@
 
 # Versions
 - Streamlit can use python until 3.12 as of 6th Feb 2025.
-- 
+
+
+
+
+# Database setting  
+myproject/  
+│── database/             
+│   ├── models.py        # Table Definition - SQLAlchemy  
+│   ├── database.py      # Database Connection / Initialisation  
+│   ├── crud.py          # Data CRUD manupulate  
+│── main.py              # Entry Point  
+│── config.py            # DB path  
+
